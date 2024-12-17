@@ -12,6 +12,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.cmake
+            pkgs.jdk17
             pkgs.ninja
             pkgs.zip
           ];
