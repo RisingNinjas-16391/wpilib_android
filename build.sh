@@ -38,5 +38,5 @@ done
 cd $ROOT
 
 # create library archives
-tar czvf libraries.tar.gz $ARCHITECTURES
-zip -r libraries.zip $ARCHITECTURES
+tar czvf libraries.tar.gz ${ARCHITECTURES[@]}
+zip -r libraries.zip ${ARCHITECTURES[@]}
